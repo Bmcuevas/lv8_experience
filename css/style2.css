@@ -1,0 +1,460 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: sticky;
+  }
+  
+  /* Hero Section Styles */
+  #hero_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url(images/hero.svg) center center no-repeat;
+    background-size: cover;
+    background-color: #f5f5f5;
+  }
+  
+  .hero-content {
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background: url(images/about.svg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .about_container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .about-content {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  /* LV8 Section Styles */
+  #LV8_section {
+    background: url(images/lv8.svg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .LV8_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+  }
+  
+  /* Speakers Section Styles */
+  .speakers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5%;
+    background-size: cover;
+    background-color: #FEF9EF;
+  }
+  
+  .speakers_title {
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  .speakers_title span {
+    /* Add background to the Spamed word */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background-size: 100%;
+    /* Combine the background with the word */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .col {
+    margin-bottom: 2%;
+  }
+  
+  /* Section Styles */
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: #5000ca;
+  }
+  
+  .card-text {
+    font-style: italic;
+  }
+  
+  /* Partners Styles */
+  .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FEF9EF;
+  }
+  
+  .carousel_container {
+    height: auto;
+    width: 60%;
+  }
+  
+  /* Form Styles */
+  .form {
+    height: 100vh;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    background: url(images/form.svg) center center no-repeat;
+    background-size: cover;
+    background-color: #f5f5f5;
+  }
+  
+  .form-row,.form-group {
+    margin-top: 2%;
+    }
+    
+    #btn_form {
+    margin-top: 3%;
+    }
+    
+    label {
+    margin-bottom: 1%;
+    }
+    
+    /* Speakers Section */
+    .speakers {
+    height: auto;
+    width: 100%;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 30vh;
+    }
+    
+    /* Footer Styles */
+    .footer_container {
+    background-color: #fff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #footer_logo {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: center;
+    text-decoration: none;
+    font: 2rem;
+    }
+    
+    .footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .footer_link_wrapper {
+    display: flex;
+    }
+    
+    .footer_link_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+    }
+    
+    .footer_link_items h2 {
+    margin-bottom: 16px;
+    color: black;
+    }
+    
+    .footer_link_items a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    }
+    
+    .footer_link_items a:hover {
+    color: black;
+    transition: 0.3s ease-out;
+    }
+    
+    .social_icon_link {
+    color: black;
+    font-size: 24px;
+    }
+    
+    .social_media {
+    max-width: 1000px;
+    width: 100%;
+    }
+    
+    .social_media_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    }
+    
+    .social_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    }
+    
+    .website_rights {
+    color: black;
+    }
+    
+    /* Media Queries for Responsive Design */
+    
+    @media screen and (max-width: 768px) {
+    /* Navbar Styles */
+    .navbar {
+    position: relative;
+    }
+    
+    /* About Section Styles */
+    .about_container {
+    justify-content: center;
+    }
+    
+    .about-content {
+    width: 80%;
+    }
+    
+    /* LV8 Section Styles */
+    .container {
+    justify-content: center;
+    }
+    
+    /* Speakers Section Styles */
+    .speakers_title {
+    font-size: 40px;
+    }
+    
+    /* Footer Styles */
+    .footer_link_items {
+    width: 100%;
+    margin: 16px 0;
+    }
+    }
+    
+    @media screen and (max-width: 576px) {
+    /* Hero Section Styles */
+    .hero-content {
+    font-size: large;
+    }
+    
+    /* About Section Styles */
+    .about-content {
+    width: 100%;
+    }
+    
+    /* LV8 Section Styles */
+    .LV8_video {
+    margin-left: 0;
+    }
+    
+    /* Form Styles */
+    .form {
+    padding-left: 2%;
+    padding-top: 2%;
+    }
+    
+    /* Speakers Section Styles */
+    .speakers_title {
+    font-size: 32px;
+    }
+    
+    /* Footer Styles */
+    .footer_link_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    .footer_link_items {
+    width: 100%;
+    margin: 8px 0;
+    }
+    
+    .social_icons {
+    width: 100%;
+    justify-content: space-around;
+    }
+    }
+
+    /* Default styles */
+
+/* Add your default styles here */
+
+/* Media query for iPhone 12 */
+@media only screen and (max-width: 390px) {
+    /* Navbar */
+    .navbar {
+      /* Modify navbar styles for smaller screens */
+      position: fixed;
+    }
+  
+    /* Hero Section */
+    #hero_section {
+      /* Modify hero section styles for smaller screens */
+      height: 80vh;
+      background-size: contain;
+    }
+  
+    .hero-content {
+      font-size: large;
+    }
+  
+    /* About Section */
+    #about {
+      /* Modify about section styles for smaller screens */
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .about_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .about-content {
+      width: 90%;
+      margin: 20px 0;
+    }
+  
+    /* LV8 Section */
+    #LV8_section {
+      /* Modify LV8 section styles for smaller screens */
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .LV8_video {
+      margin-left: 0;
+    }
+  
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Speakers Section */
+    .speakers {
+      /* Modify speakers section styles for smaller screens */
+      height: auto;
+      padding: 10% 0;
+    }
+  
+    .speakers_title {
+      font-size: 40px;
+    }
+  
+    .col {
+      width: 90%;
+      margin-bottom: 5%;
+    }
+  
+    /* Partners Section */
+    .carousel {
+      /* Modify carousel section styles for smaller screens */
+      height: auto;
+      padding: 10% 0;
+    }
+  
+    .carousel_container {
+      width: 90%;
+    }
+  
+    /* Form Section */
+    .form {
+      /* Modify form section styles for smaller screens */
+      height: auto;
+      padding: 10% 0;
+    }
+  
+    .form-row,
+    .form-group {
+      margin-top: 5%;
+    }
+  
+    #btn_form {
+      margin-top: 5%;
+    }
+  
+    /* Footer Section */
+    .footer_container {
+      /* Modify footer section styles for smaller screens */
+      padding: 2rem;
+    }
+  
+    .footer_links {
+      flex-wrap: wrap;
+    }
+  
+    .footer_link_items {
+      margin: 10px;
+      width: 100%;
+    }
+  
+    .footer_link_items h2 {
+      font-size: 20px;
+    }
+  
+    .social_icons {
+      width: 100%;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
