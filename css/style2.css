@@ -167,6 +167,12 @@ body {
     object-fit: cover;
     height: 30vh;
     }
+
+.iana{  
+  object-fit: cover;
+  height: 30vh;
+
+}
     
     /* Footer Styles */
     .footer_container {
