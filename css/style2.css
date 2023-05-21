@@ -64,11 +64,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 4%;
-    
   }
 
   .video_frame{ 
-    height: 50%;
+    height: 80%;
     width: 50vh;
   }
   
@@ -137,9 +136,9 @@ body {
   }
   
   .carousel_container {
-    padding-top: 5%;
-    height: auto;
-    width: 60%;
+    margin-top: 5%;
+    height: 100vh;
+    width: auto;
   }
   
   /* Form Styles */
