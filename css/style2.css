@@ -136,22 +136,20 @@ body {
   }
   
   .carousel_container {
-    margin-top: 5%;
     height: 100vh;
     width: auto;
   }
-  
+
   /* Form Styles */
   .form {
     height: 100vh;
     width: 100%;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding: 10%;
     background: url(images/form.svg) center center no-repeat;
     background-size: cover;
     background-color: #f5f5f5;
   }
-  
+
   .form-row,.form-group {
     margin-top: 2%;
     }
@@ -307,6 +305,11 @@ body {
     width: 100%;
     margin: 16px 0;
     }
+    .form {
+      /* Modify form section styles for smaller screens */
+      height: auto;
+      padding: 10%;
+    }
     }
     
     @media screen and (max-width: 576px) {
@@ -327,8 +330,9 @@ body {
     
     /* Form Styles */
     .form {
-    padding-left: 2%;
-    padding-top: 2%;
+      /* Modify form section styles for smaller screens */
+      height: auto;
+      padding: 10%;
     }
     
     /* Speakers Section Styles */
@@ -451,7 +455,7 @@ body {
     .form {
       /* Modify form section styles for smaller screens */
       height: auto;
-      padding: 10% 0;
+      padding: 10%;
     }
   
     .form-row,
